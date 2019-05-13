@@ -1,5 +1,5 @@
 <template>
-   <image :src="src?src:loadImg" @load="bindload" @error="onLoadImageError"></image>
+   <image :src="src?src:loadImg" @load="bindload" @error="onLoadImageError" class="mage-loader"></image>
 </template>
 <script>
 export default {
@@ -48,6 +48,8 @@ export default {
 
 
 <style lang="scss" scoped>
-
+.mage-loader{
+  height: 100%;
+}
 </style>
 

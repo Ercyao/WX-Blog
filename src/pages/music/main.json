@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "查看启动日志",
+  "navigationBarTitleText": "歌单",
   "usingComponents": {
     "i-card": "../../../static/iview/card/index",
     "i-steps": "../../../static/iview/steps/index",
@@ -9,15 +9,6 @@
     "i-panel": "../../../static/iview/panel/index",
     "i-toast": "../../../static/iview/toast/index",
     "i-message": "../../../static/iview/message/index",
-    "i-icon": "../../../static/iview/icon/index",
-    "i-cell-group": "../../../static/iview/cell-group/index",
-    "i-cell": "../../../static/iview/cell/index",
-    "i-grid": "../../../static/iview/grid/index",
-    "i-grid-item": "../../../static/iview/grid-item/index",
-    "i-grid-icon": "../../../static/iview/grid-icon/index",
-    "i-grid-label": "../../../static/iview/grid-label/index",
-    "i-row": "../../../static/iview/row/index",
-    "i-col": "../../../static/iview/col/index",
-    "i-tag": "../../../static/iview/tag/index"
+    "i-icon": "../../../static/iview/icon/index"
   }
 }

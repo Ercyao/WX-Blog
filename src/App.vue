@@ -31,6 +31,9 @@ export default {
 </script>
 
 <style>
+page{
+  background: #f4f4f4;
+}
 .container {
   height: 100%;
   display: flex;
@@ -39,6 +42,7 @@ export default {
   justify-content: space-between;
   padding: 200rpx 0;
   box-sizing: border-box;
+  background: #f4f4f4;
 }
 /* this rule will be remove */
 * {
@@ -49,5 +53,6 @@ export default {
 }
 image{
   max-width: 100%;
+  height: 100%;
 }
 </style>
