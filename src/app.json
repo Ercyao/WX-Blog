@@ -1,0 +1,69 @@
+
+{
+  "pages": [
+    "pages/index/main",
+    "pages/logs/main",
+    "pages/counter/main",
+    "pages/book/main",
+    "pages/music/main",
+    "pages/user/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/active.png"
+    }, {
+      "text": "读书",
+      "pagePath": "pages/book/main",
+      "iconPath": "static/tabs/book.png",
+      "selectedIconPath": "static/tabs/active.png"
+    }, {
+      "text": "音乐",
+      "pagePath": "pages/music/main",
+      "iconPath": "static/tabs/music.png",
+      "selectedIconPath": "static/tabs/active.png"
+    }, {
+      "text": "我的",
+      "pagePath": "pages/user/main",
+      "iconPath": "static/tabs/user.png",
+      "selectedIconPath": "static/tabs/active.png"
+    }],
+
+    "items": [{
+      "name": "首页",
+      "pagePath": "pages/index/main",
+      "icon": "static/tabs/home.png",
+      "activeIcon": "static/tabs/active.png"
+    }, {
+      "name": "读书",
+      "pagePath": "pages/book/main",
+      "icon": "static/tabs/book.png",
+      "activeIcon": "static/tabs/active.png"
+    }, {
+      "name": "音乐",
+      "pagePath": "pages/music/main",
+      "icon": "static/tabs/music.png",
+      "activeIcon": "static/tabs/active.png"
+    }, {
+      "name": "我的",
+      "pagePath": "pages/user/main",
+      "icon": "static/tabs/user.png",
+      "activeIcon": "static/tabs/active.png"
+    }],
+    "position": "bottom"
+  }
+}
